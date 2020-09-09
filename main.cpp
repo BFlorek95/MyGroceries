@@ -34,7 +34,7 @@ int main()
   {
       for(int i = 0; i < list.size(); i++)
       {
-          cout << i << " : " << list[i] << endl;s
+          cout << i << " : " << list[i] << endl;
       }
   }
   return 0;
