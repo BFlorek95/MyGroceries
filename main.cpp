@@ -25,6 +25,17 @@ int main()
         list.push_back(item);
     }
   }while( input != 'q' && input != 'Q' );
-    
+
+  if(list.size() == 0)
+  {
+      cout << "there are no items to display on the list" << endl;
+  }
+  else
+  {
+      for(int i = 0; i < list.size(); i++)
+      {
+          cout << i << " : " << list[i] << endl;s
+      }
+  }
   return 0;
 }
